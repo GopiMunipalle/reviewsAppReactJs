@@ -1,0 +1,51 @@
+/* Write your code here */
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+@media {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
+.title {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #ffffff;
+}
+.head {
+  font-family: Roboto;
+  font-size: 17px;
+  color: #ffffff;
+}
+.description {
+  font-family: Roboto;
+  font-size: 14px;
+  padding: 10px;
+}
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
